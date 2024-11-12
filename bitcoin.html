@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirecting...</title>
+    <script>
+        // Function to redirect after 5 seconds
+        function redirect() {
+            // Specify the URL to redirect to
+            const url = "https://freebitco.in/?r=54478099"; // Change this to your desired URL
+            setTimeout(() => {
+                window.location.href = url;
+            }, 5000); // 5000 milliseconds = 5 seconds
+        }
+        
+        // Call the redirect function when the page loads
+        window.onload = redirect;
+    </script>
+</head>
+<body>
+    <h1>Redirecting you in 5 seconds...</h1>
+    <p>If you are not redirected, <a href="https://freebitco.in/?r=54478099">click here</a>.</p> <!-- Change this to your desired URL -->
+</body>
+</html>
